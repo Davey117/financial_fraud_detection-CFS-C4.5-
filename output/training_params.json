@@ -1,0 +1,29 @@
+{
+    "model_type": "DecisionTreeClassifier (C4.5 equivalent)",
+    "criterion": "entropy",
+    "min_samples_leaf": 2,
+    "ccp_alpha": 0.001,
+    "random_state": 42,
+    "smote_k_neighbors": 5,
+    "scaler": "MinMaxScaler",
+    "scaling_variables": [
+        "Time"
+    ],
+    "selected_features": [
+        "Time",
+        "V6",
+        "V8",
+        "V13",
+        "V14",
+        "V18",
+        "V19",
+        "V20",
+        "V21",
+        "V24",
+        "V27",
+        "V28",
+        "V25",
+        "V26"
+    ],
+    "number_of_folds": 10
+}

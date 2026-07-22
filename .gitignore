@@ -1,0 +1,8 @@
+# Ignore raw data files
+data/creditcard.csv
+data/processed_folds/
+archive.zip
+
+# Ignore local python caches
+__pycache__/
+*.pyc
